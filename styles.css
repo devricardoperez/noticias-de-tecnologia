@@ -172,12 +172,13 @@ hr {
 .cards-banner-one {
   width: 100%;
   height: 350px;
-  background: url("./img/tech-red.jpg");
+  background: url("./img/tech-red.jpg") no-repeat center center;
+  background-size: cover;
   margin-bottom: 40px;
 }
 
 .cards-banner-one .content {
-  width: 40%;
+  width: 45%;
   padding: 90px 0 0 30px;
   color: #fff;
 }
@@ -186,6 +187,7 @@ hr {
 .cards-banner-two p {
   margin: 10px 0 20px 0;
 }
+
 
 /* Follow */
 .social {
@@ -328,10 +330,7 @@ hr {
   box-sizing: border-box; /* para incluir el margen y el padding en el ancho y alto del elemento */
 }
 
-.owl-carousel .item-video video {
-  width: 100%;
-  height: auto;
-}
+
 
 .owl-carousel .video-title {
   display: -webkit-box;
@@ -340,18 +339,18 @@ hr {
   overflow: hidden;
 }
 
-  .item-video {
+.item-video {
     flex: 0 0 calc(25% - 20px); /* 25% del ancho menos 20px para los márgenes */
     margin: 10px;
     box-sizing: border-box; /* para incluir el margen y el padding en el ancho y alto del elemento */
   }
 
-  .item-video video {
+.item-video video {
     width: 100%;
     height: auto;
   } 
 
-  .video-title {
+.video-title {
     display: -webkit-box;
     -webkit-line-clamp: 2; /* limita el título a 2 líneas */
     -webkit-box-orient: vertical;
